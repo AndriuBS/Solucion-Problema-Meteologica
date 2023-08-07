@@ -1,14 +1,17 @@
 # Solucion Problema Meteologica
 
-A partir de un archivo de texto de tipo csv de observaciones y predicciones en formato:
-    Observaciones
-    YYYY:mm:DD HH:MM produccion velocidad
-    ...
-    YYYY:mm:DD HH:MM produccion velocidad
-    Predicciones
-    YYYY:mm:DD HH:MM velocidad
-    ...
-    YYYY:mm:DD HH:MM velocidad
+    A partir de un archivo de texto de tipo csv de observaciones y predicciones en formato:
+    
+                                                Observaciones
+                                                YYYY:mm:DD HH:MM produccion velocidad
+                                                ...
+                                                YYYY:mm:DD HH:MM produccion velocidad
+                                                Predicciones
+                                                YYYY:mm:DD HH:MM velocidad
+                                                ...
+                                                YYYY:mm:DD HH:MM velocidad
+
+    Se nos pide mostrar pantalla una serie de resultados. Se nos proporciona para ello las fórmulas necesarias relativas a regresión lineal y cálculo de errores. 
 
     Teniendo en cuenta que la velocidad se considera una variable independiente a partir de la cual se infiere la producción, ambas en formato float redondeadas a 
     dos decimales, se nos pide hacer una regresión sobre los datos correspondientes a las observaciones y calcular los coeficientes beta0 y beta1, correspondientes 
