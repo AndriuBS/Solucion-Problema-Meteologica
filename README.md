@@ -4,13 +4,15 @@ A partir de un archivo de texto de tipo csv de observaciones y predicciones en f
     Observaciones
     YYYY:mm:DD HH:MM produccion velocidad
     ...
+    YYYY:mm:DD HH:MM produccion velocidad
     Predicciones
     YYYY:mm:DD HH:MM velocidad
     ...
+    YYYY:mm:DD HH:MM velocidad
 
     Teniendo en cuenta que la velocidad se considera una variable independiente a partir de la cual se infiere la producción, ambas en formato float redondeadas a 
-    dos decimales, se nos pide hacer una regresión sobre los datos correspondientes a las observaciones y calcular los coeficientes beta0 y beta1, correspondientes a 
-    la recta de regresión Y = beta0 + beta1 * X, y mostrarlos por pantalla.
+    dos decimales, se nos pide hacer una regresión sobre los datos correspondientes a las observaciones y calcular los coeficientes beta0 y beta1, correspondientes 
+    a la recta de regresión Y = beta0 + beta1 * X, y mostrarlos por pantalla.
                                                                       beta0 beta1
 
     A continuación se nos pide hallar los errores cuadrático medio (ECM) y medio absoluto (EMA) de cada trimestre y mostrarlos por pantalla.
