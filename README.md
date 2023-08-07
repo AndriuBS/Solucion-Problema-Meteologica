@@ -11,7 +11,7 @@
                                                 ...
                                                 YYYY:mm:DD HH:MM velocidad
 
-    Se nos pide mostrar pantalla una serie de resultados. Se nos proporciona para ello las fórmulas necesarias relativas a regresión lineal y cálculo de errores. 
+    Se nos pide mostrar por pantalla una serie de resultados. Se nos proporciona para ello las fórmulas necesarias relativas a regresión lineal y cálculo de errores. 
 
     Teniendo en cuenta que la velocidad se considera una variable independiente a partir de la cual se infiere la producción, ambas en formato float redondeadas a 
     dos decimales, se nos pide hacer una regresión sobre los datos correspondientes a las observaciones y calcular los coeficientes beta0 y beta1, correspondientes 
